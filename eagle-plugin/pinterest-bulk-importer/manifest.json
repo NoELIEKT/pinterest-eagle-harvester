@@ -1,0 +1,15 @@
+{
+  "id": "com.noeliekt.pinterest-bulk-importer",
+  "version": "0.1.0",
+  "name": "Pinterest Bulk Importer",
+  "description": "Paste Pinterest pin URLs or image URLs and import to Eagle in bulk.",
+  "author": "NoELIEKT",
+  "type": "window",
+  "main": {
+    "url": "index.html",
+    "width": 520,
+    "height": 700,
+    "minWidth": 420,
+    "minHeight": 560
+  }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest Bulk Importer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Pinterest Bulk Importer</h1>
+      <p class="sub">Pinterest URL/이미지 URL을 붙여넣고 Eagle로 일괄 저장합니다.</p>
+
+      <label>Eagle API Base</label>
+      <input id="apiBase" value="http://127.0.0.1:41595" />
+
+      <label>Eagle Token (선택)</label>
+      <input id="token" placeholder="Eagle API token" />
+
+      <label>Folder ID (선택)</label>
+      <input id="folderId" placeholder="저장할 Eagle 폴더 ID" />
+
+      <label>기본 태그 (콤마 구분)</label>
+      <input id="tags" value="pinterest,auto-import" />
+
+      <label>URL 목록 (줄바꿈)</label>
+      <textarea id="urls" placeholder="https://www.pinterest.com/pin/...\nhttps://i.pinimg.com/...jpg"></textarea>
+
+      <div class="row">
+        <button id="extractBtn">핀 URL에서 이미지 추출</button>
+        <button id="importBtn" class="primary">Eagle로 가져오기</button>
+      </div>
+
+      <pre id="log"></pre>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
