@@ -50,6 +50,13 @@ cp .env.example .env
 3. 플러그인 실행 후 URL 목록 붙여넣기
 4. 필요시 API Base/Token/Folder ID 입력 후 가져오기 실행
 
+## 디자인 에셋 포함
+플러그인/홍보용 SVG 에셋도 함께 제공됩니다.
+
+- `eagle-plugin/pinterest-bulk-importer/assets/icon-pinterest-eagle.svg`
+- `eagle-plugin/pinterest-bulk-importer/assets/cover-card.svg`
+- `eagle-plugin/pinterest-bulk-importer/assets/thumb-template.svg`
+
 ## 다음 고도화 추천
 - 보드/유저 단위 수집 모드 추가
 - 이미지 해시 기반 중복 제거(pHash)

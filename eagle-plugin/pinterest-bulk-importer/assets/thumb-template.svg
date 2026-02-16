@@ -1,0 +1,30 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pinterest Collection Thumbnail Template">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect x="60" y="60" width="960" height="1800" rx="48" fill="#020617" opacity="0.45" stroke="#334155"/>
+
+  <text x="120" y="250" font-size="66" fill="#f8fafc" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-weight="700">오늘의 Pinterest 수집</text>
+  <text x="120" y="330" font-size="42" fill="#94a3b8" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">Eagle 자동 저장 컬렉션</text>
+
+  <g transform="translate(120 420)">
+    <rect width="840" height="420" rx="32" fill="#111827" stroke="#374151"/>
+    <text x="50" y="95" font-size="48" fill="#fb7185" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-weight="700">Keyword #1</text>
+    <text x="50" y="165" font-size="34" fill="#cbd5e1" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">minimal poster / brand identity</text>
+    <text x="50" y="245" font-size="34" fill="#22d3ee" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">+24 new images</text>
+  </g>
+
+  <g transform="translate(120 890)">
+    <rect width="840" height="420" rx="32" fill="#111827" stroke="#374151"/>
+    <text x="50" y="95" font-size="48" fill="#c4b5fd" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-weight="700">Keyword #2</text>
+    <text x="50" y="165" font-size="34" fill="#cbd5e1" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">interior moodboard</text>
+    <text x="50" y="245" font-size="34" fill="#22d3ee" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">+31 new images</text>
+  </g>
+
+  <text x="120" y="1530" font-size="34" fill="#94a3b8" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">자동 수집 · 중복 제거 · 태그 정리</text>
+  <text x="120" y="1620" font-size="56" fill="#f8fafc" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-weight="800">Pinterest → Eagle</text>
+</svg>

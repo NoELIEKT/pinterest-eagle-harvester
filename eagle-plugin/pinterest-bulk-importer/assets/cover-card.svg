@@ -1,0 +1,30 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Plugin Cover Card">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <circle cx="1290" cy="160" r="280" fill="#ffffff" opacity="0.06"/>
+  <circle cx="320" cy="760" r="300" fill="#ffffff" opacity="0.05"/>
+
+  <text x="110" y="300" font-size="88" fill="#f8fafc" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-weight="700">Pinterest → Eagle</text>
+  <text x="110" y="395" font-size="72" fill="url(#g2)" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-weight="800">Bulk Importer</text>
+  <text x="110" y="470" font-size="34" fill="#cbd5e1" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">핀 URL 붙여넣기 → 이미지 추출 → Eagle 자동 저장</text>
+
+  <rect x="105" y="560" width="640" height="170" rx="28" fill="#0b1220" stroke="#334155"/>
+  <text x="145" y="630" font-size="30" fill="#94a3b8" font-family="Menlo, monospace">https://www.pinterest.com/pin/...</text>
+  <text x="145" y="680" font-size="30" fill="#22d3ee" font-family="Pretendard, Apple SD Gothic Neo, sans-serif">✅ Eagle로 가져오기</text>
+
+  <g transform="translate(1140 500)">
+    <rect width="280" height="280" rx="60" fill="#0f172a" stroke="#334155"/>
+    <circle cx="95" cy="95" r="58" fill="#fff"/>
+    <text x="95" y="115" text-anchor="middle" font-size="86" fill="#ef4444" font-family="Arial Black, Arial">P</text>
+    <path d="M175 190h70M210 155v70" stroke="#22d3ee" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>
